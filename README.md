@@ -38,13 +38,13 @@ html.Url.createObjectUrlFromBlob(blob): Creates a URL for the Blob.
 html.AnchorElement(href: url)..click(): Creates an anchor element, sets the URL as its href, and triggers a click event to download the image.
 html.Url.revokeObjectUrl(url): Revokes the URL to release resources.
 </h4>
-#  <h5> A "Blob" (Binary Large Object) is a data structure used to store binary data. In web development, a Blob is often used to represent data that doesn't necessarily fit into a traditional text-oriented format. Blobs can store various types of data, including images, audio, video, and other binary data. </h5>
-# <h5> Here, html.Blob is a class from the dart:html library (specifically, the web implementation of Dart). It takes a list of data (in this case, a Uint8List, which is an unsigned 8-bit integer list representing binary data) and creates a Blob object.
+<h5> A "Blob" (Binary Large Object) is a data structure used to store binary data. In web development, a Blob is often used to represent data that doesn't necessarily fit into a traditional text-oriented format. Blobs can store various types of data, including images, audio, video, and other binary data. </h5>
+<h5> Here, html.Blob is a class from the dart:html library (specifically, the web implementation of Dart). It takes a list of data (in this case, a Uint8List, which is an unsigned 8-bit integer list representing binary data) and creates a Blob object.
 
 The Blob is then used to create a URL, and this URL is assigned to the href attribute of an anchor (<a>) element. When the anchor element is clicked programmatically, it triggers the browser to download the data associated with the Blob as a file.</h5>
 
-# <h1>Update the UI to Call the Save Method:</h1>
-# <h4> ElevatedButton(
+<h1>Update the UI to Call the Save Method:</h1>
+<h4> ElevatedButton(
   onPressed: _saveSignature,
   child: Text('Save Signature'),
 ),
@@ -53,7 +53,7 @@ This button triggers the _saveSignature method when pressed.
 By understanding these steps, you can customize the code according to your needs. The key concept is to use the toImage method to capture the drawn signature as an image and then convert and save it as needed.
 </h4>
 
-A new Flutter project.
+
 
 ## Getting Started
 
